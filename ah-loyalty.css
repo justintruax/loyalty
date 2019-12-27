@@ -1,5 +1,3 @@
-/* The .page entry below controls your website's fonts. Replace the generic term "serif" and/or * the specific font "'times'" with any of the following to best match your website. * * Example fonts to replace 'times' with: * 'arial', 'verdana', 'tahoma' * * serif can only be replaced with: * sans-serif * * You can remove 'times' or serif, but you need to leave one font setting to change the font * displayed from the default MemberLink setting. * * The background-color entry below changes the color of the background in MemberLink. * The value is given in rgb (red green blue). The website 'http://www.colorpicker.com/' * allows you to find the rgb value of a selected color. */ 
-
 .page { /*font-family: 'times', serif;*/ font-family: sans-serif; background-color: rgb(120, 220, 220); }
 
 /* These are the settings for the colors and decorations for the website's links. * * The text-decoration can be set to none, underline, line-through or overline. */ 
