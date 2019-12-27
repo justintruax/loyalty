@@ -15,7 +15,7 @@
     background-color: rgb(256, 256, 256);
 }
 
-hr
+.hr
 {
     background-color: rgb(150, 150, 150);
     color: rgb(150, 150, 150);
@@ -44,28 +44,28 @@ hr
     text-decoration: none;
 }
 
-a:link  
+.a:link  
 {
     margin: 0px;
     padding: 0px;
     color:  rgb(140, 140, 140);
     text-decoration: none;
 }
-a:active
+.a:active
 {
     margin: 0px;
     padding: 0px;
     color: rgb(140, 140, 140);
     text-decoration: none;
 }
-a:visited
+.a:visited
 {
     margin: 0px;
     padding: 0px;
     color: rgb(140, 140, 140);
     text-decoration: none;
 }
-a:hover
+.a:hover
 {
     margin: 0px;
     padding: 0px;
@@ -171,7 +171,7 @@ a:hover
     text-align: center;
 }
 
-h1.standingsHeadline
+.h1.standingsHeadline
 {
     font-size: 32px;
     font-weight: 600;
@@ -181,7 +181,7 @@ h1.standingsHeadline
     text-align: left;
 }
 
-h2.standingsHeadline
+.h2.standingsHeadline
 {
     font-size: 48px;
     font-weight: 900;
@@ -190,7 +190,7 @@ h2.standingsHeadline
     padding: 0px;
 }
 
-h3.standingsHeadline
+.h3.standingsHeadline
 {
     font-size: 16px;
     font-style: oblique;
