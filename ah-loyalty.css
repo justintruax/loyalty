@@ -1,0 +1,712 @@
+
+#mainLogo {
+    position:absolute;
+    z-index:1500;
+    top:0px;
+    left:150px;
+    width:150px;
+}
+#mainLogo img  max-width:320px;
+}
+@media(max-width:646px){
+    #mainLogo {
+        position:absolute;
+        z-index:1500;
+        top:0px;
+        left:50%;
+        right:50%;
+        width:150px;
+        display:none;
+    }
+}
+#main {
+    background: url(https://i40group.com/NCR/jimboys/Jimboys_rewards-logo.png) top no-repeat  !important;
+    color: #FFF;
+    padding-top: 170px;
+}
+
+.page {background: url(https://i40group.com/NCR/jimboys/promo-bg.jpg) top #231f20 !important;color: #FFF;padding-top: 215px;}
+
+.title {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 26px;
+    font-weight:bold;
+    font-style:normal;
+    color: #ea232b;
+    text-align:center;
+    float: none !important;
+}
+
+.instructions {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:normal;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:left;
+}
+
+.fldLabel {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:normal;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:right;
+    width:50%;
+}
+
+.fldData {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:normal;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:left;
+    background-color:rgb(255, 255, 255);
+    width:230px;
+}
+
+.BPName {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:bold;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:right;
+}
+
+
+.BPBalance {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:normal;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:left;
+}
+
+.homelink {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:9pt;
+    font-weight:bold;
+    font-style:normal;
+    color:rgb(49, 106, 197);
+    text-align:center;
+    text-decoration:underline;
+}
+
+.grpbox {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:bold;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:left;
+}
+
+.asterisk {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:normal;
+    font-style:normal;
+    color:rgb(220, 0, 0);
+    text-align:left;
+}
+
+.login {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:bold;
+    font-style:normal;
+    color:rgb(49, 106, 197);
+    text-align:center;
+}
+
+.Txn_both {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size:  10pt;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.Txn_one {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size:  18pt;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+.eCardBalance_both {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.eCardBalance_one {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.TxnValues_both {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.TxnValues_one {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.EditProfile {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:10pt;
+    font-weight:normal;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:center
+}
+body{
+    background:#222 !important;
+}
+#header
+{
+    width: 100% !important;
+    margin: 0px auto 0px auto;
+    padding: 10px 0px 89px 0px !important;
+    background-image: url(https://i40group.com/NCR/jimboys/header_bg.jpg) ;
+    overflow:visible !important;
+    height: auto !important;
+    display: block !important;
+    position: fixed !important;
+    top: 0 !important;
+    background-position: center;
+    background-repeat-y: no-repeat;
+    background-size: cover !important;
+    z-index: 99;
+
+}
+#main {
+    max-width: 650px;
+    margin:auto !important;
+    width: 100% !important;
+    padding-bottom:40px;
+}
+#privacyStatementLink {
+    color:#FFF;
+}
+#footer, footer {
+    width:100% !important;
+    text-align:center;
+    margin: 0px auto 0 auto !important;
+    /* background-color: #231f20; */
+    color:#FFF !important;
+    padding:35px 0 38px;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background-image: url(https://i40group.com/NCR/jimboys/footer_BG.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    z-index: 100;
+    height: 55px !important;
+}
+@media(min-width:1324px){
+    #footer:before, footer:before {
+        width:363px;
+        height:153px;
+        content:'';
+        position:absolute;
+        bottom:10px;
+        z-index:500000;
+        right:130px;
+        background: url(https://i40group.com/NCR/jimboys/foot_trailer.png) no-repeat !important;
+        background-size:363px 153px !important;
+    }
+}
+#preferDesktopToggle {
+    color:#FFF;
+}
+#centeringDiv {
+    width:100% !important;
+}
+
+.endHR {
+    display:none;
+}
+#companyLogo {
+    border-radius:5px;
+}
+#signUpButton, #nonReqCardNumSubmitButton, #newAcFormSubmitButton, #userNameSubmitButton {
+    background: #ea232b;
+    border:none !important;
+    color:#000000;
+    border-radius: 4px;
+}
+#loginSubmitButton, .login {
+    background: #ea232b;
+    border:none !important;
+    color:#FFF;
+    border-radius: 4px;
+}
+#main input[type=text], #main input[type=password]{
+    padding:7px 5px;
+    line-height:14px;
+    /* margin-right: -15px !important; */
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+#main select {
+    padding:7px 5px;
+    line-height:14px;
+    margin-right: -15px !important;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+#main .inputLabel {
+    margin: .2em 5px 0em 0em !important;
+}
+#forgotPasswordLink {
+    padding-left:10px;
+}
+#nonReqCardNumberRequest table {
+    margin:15px 0px !important;
+}
+.centerAlignedDiv {
+    padding:0 !important;
+    margin-top: 30px;
+}
+.formDiv {
+    padding: 0 !important;
+    width:100% !important;
+    margin: 0 !important;
+}
+#newAccountForm {
+    width: auto !important;
+}
+.formField {
+    display:inline-block !important;
+}
+.formField {
+    max-width:200px;
+    margin-right:5px !important;
+}
+#instructionalText_LoginPage {
+    width:100% !important;
+}
+html {
+    padding-bottom:70px !important;
+
+}
+#homePageText {
+    background: #231f20;
+    padding:15px 0;
+    margin: 30px 0 -10px;
+    border-radius: 8px;
+}
+#homePageText a {
+    color:#FFF !important;
+    font-size:15px;
+    text-transform:uppercase;
+}
+#companyLogoLink {
+    display:block;
+    margin: 0px 0 40px;
+}
+a:hover {
+    color:#7f1f19
+}
+#footer a:hover, footer a:hover{
+    color:#dbdbdb
+}
+.mainNavLink {
+    color:#FFF !important;
+}
+#cardNumberRequest table {
+    margin:15px 0 0 60px !important;
+}
+#main .disclaimerText {
+    margin-bottom:15px;
+    display:block;
+    color: rgb(240, 240, 237);
+}
+#preferDesktopToggle {
+
+}
+#userTag {
+    z-index:99999;
+    background:#212121;
+    border:2px solid #0a0a0a;
+}
+
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#centeringDiv
+{
+    width: 800px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+#userTag 
+{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+}
+
+#header
+{
+    width: 700px;
+    margin: 0px auto 0px auto;
+    padding: 20px 0px 20px 0px;
+    display: table;
+    overflow: hidden;
+}
+
+#nav
+{
+    width: 600px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 0px 0px;
+    clear: none;
+    display: block;
+    overflow: hidden;
+}
+
+#main
+{
+    width: 800px;
+    margin: 0px auto 30px auto;              
+}
+
+#footer
+{
+    width: 800px;
+    margin: 0px auto 30px auto;
+    clear: both;
+}
+
+hr
+{
+    width: 70%;
+    height: 1px;
+    border: 0 none;
+}
+
+.endHR
+{
+    height: 4px;
+}
+
+img
+{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#instructionalText
+{
+    width: 600px;
+    margin: 0px auto 15px auto;
+}
+
+#instructionalText_LoginPage
+{
+    width: 600px;
+    margin: 0px auto 0px auto;
+}
+
+.inputLabel
+{
+    width: 11em;
+    float: left;
+    text-align: right;
+    margin:.2em 1em 0em 0em;
+    display: block;
+}
+
+.manageAccInputLabel
+{
+    width: 12em;
+    float: left;
+    text-align: right;
+    margin:.2em 1em 0em 0em;
+    display: block;
+}
+
+.checkboxText
+{
+    clear: both;
+}
+
+.checkboxAlignedText
+{
+    margin-bottom: 1px;
+    clear: both;
+}
+
+.checkboxLabel
+{
+    clear: both;
+    position: relative;
+    margin:.2em 0em 0em 0em;
+}
+
+.login
+{
+    width: 120px;
+    height: 36px;
+    margin: 1em auto 0em auto;
+    display: block;
+}
+
+.errorMessage
+{
+    display: none;
+}
+
+.standingsDiv
+{
+	width: 600px;
+	margin: 0px auto 30px auto;
+	padding: 20px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(150, 150, 150);
+	overflow: hidden;
+}
+
+/* Form Fields CSS */
+.formDiv
+{
+	width: 500px;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+
+.formLabel
+{
+    float:left; 
+    width:220px; 
+    text-align:right; 
+    margin:2.5px 3px 0px 0px; 
+    display:inline;
+}
+
+.formLabelSmall
+{
+    float:left; 
+    width:175px; 
+    text-align:left; 
+    margin:0px 3px 0px 0px; 
+    display:inline;
+}
+
+.profileFormLabel
+{
+    float:left; 
+    width:220px; 
+    text-align:right; 
+    margin:2.5px 3px 0px 0px; 
+    display:inline;
+}
+
+.formField
+{
+    display:inline; 
+    position:relative; 
+    top:-2px;
+    margin:0px
+}
+
+
+.formHeadlines
+{
+    margin: 0px;
+    padding: 20px 0px 10px 0px;
+    font-size: 24pt;
+    font-weight: 600;
+}
+
+.formLinesRight
+{
+    width: 70%;
+    text-align: left;
+    margin: 0px 0px 2px 0px;
+}
+
+.formLinesLeft
+{
+    width: 30%;
+    text-align: right;
+    margin: 0px 0px 2px 0px;
+} 
+
+.formFields
+{
+    margin: 2px 0px 0px 0px;
+    width: 224px;
+}
+
+.shiftRight
+{
+    position:relative;
+    left:00px;
+}
+
+/* Tooltip CSS */
+.toolTipTarget
+{
+    display: inline;  
+    margin: 5px 3px 0px 3px;
+    cursor: pointer;
+}
+
+.toolTip
+{
+    text-align: center;
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid rgb(150,150,150);
+    background-color:rgb(255,255,255);
+    position: absolute;
+    z-index: 2;
+}
+
+.countdownImage
+{
+    display: inline;
+    margin-right: 2px;
+}
+
+#privacyPolicyStatementDiv
+{
+    width: 70%;
+    text-align: left;
+    margin: 20px auto auto auto;
+    padding: 10px 0px 10px 10px;
+}
+
+.privacyGrid
+{
+	display: grid;
+    display: -ms-grid;	   
+	grid-template-columns:7% 93%; 	
+	grid-column-gap: 0px;
+    -ms-grid-columns: 7% 93%;    
+	margin-bottom: 5px;
+}
+
+#privacyStatementLink
+{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.privacyStatementColumn1
+{
+    grid-column-start:1; 
+    grid-column-end:1;
+    -ms-grid-column: 1; 
+    -ms-grid-column-span: 1; 
+    -ms-grid-row-span: 1;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.privacyStatementColumn2
+{
+    grid-column-start:2; 
+    grid-column-end:2;
+    -ms-grid-column: 2; 
+    -ms-grid-column-span: 1; 
+    -ms-grid-row-span: 1;  
+    margin-left: 10px;
+}
+
+#modalBackground
+{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(80,80,80,.5);
+    display: none;
+    z-index: 99;
+}
+
+#rejectModal
+{
+    width: 440px;
+    display: none;
+    margin: auto;
+    padding: 0px;
+    background-color: rgb(256,256,256);
+    border: 4px solid rgb(175, 0, 0);
+    border-radius: 2px;
+    box-shadow: 0px 3px 5px 2px rgba(100,100,100,.5);
+    z-index: 100;
+    text-align: center;
+}
+
+.centered 
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.modalButton
+{
+    display:inline-block !important;
+    width: auto !important;
+    height: 36px !important;
+    margin: 10px 0px 0px 10px !important;
+    padding: 0px 25px 0px 25px;
+}
+
+.disabled
+{
+    opacity: 0.5;
+    pointer-events:none;
+}
+
+.verifyButtons
+{
+    width: 120px;
+    height: 36px;
+    margin: 0em auto 0em auto;
+    display: block;
+}
