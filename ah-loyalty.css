@@ -1,5 +1,3 @@
-
-/***** Main/Host Page CSS *****/
 .body
 {
     font-family: Arial,Helvetica,sans-serif;
@@ -41,7 +39,6 @@ hr
     color: rgb(112,148,255);
 }
 
-    /** Link CSS **/
 .links 
 { 
     text-decoration: none;
@@ -93,7 +90,6 @@ a:hover
     clear: none;
     display:inline;
 }
-    /** Link CSS **/
     
 .mainDelimiter
 {
@@ -161,10 +157,7 @@ a:hover
     color:rgb(220, 0, 0);
     text-align:left;
 }
-/***** Main/Host Page CSS *****/
 
-
-/***** Login Page CSS *****/
 .login {
     font-size:11pt;
     font-weight:bold;
@@ -177,10 +170,7 @@ a:hover
     color: red;
     text-align: center;
 }
-/***** Login Page CSS *****/
 
-
-/***** Standings Page *****/
 h1.standingsHeadline
 {
     font-size: 32px;
@@ -212,10 +202,7 @@ h3.standingsHeadline
 {
     margin: 0px;
 }
-/***** Standings Page *****/
 
-
-/***** Profile/Bonus Plan Pages CSS *****/
 .pageHeadlines
 {
     margin: auto;
