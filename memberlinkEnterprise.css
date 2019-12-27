@@ -210,3 +210,10 @@
         color:rgb(0, 0, 0); 
         text-align:center 
 }
+
+.formHeadlines {
+    margin: 0px;
+    padding: 20px 0px 10px 0px;
+    font-size: 54pt;
+    font-weight: 600;
+}
