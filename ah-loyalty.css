@@ -1,30 +1,337 @@
-.page { /*font-family: 'times', serif;*/ font-family: sans-serif; background-color: rgb(120, 220, 220); }
 
-/* These are the settings for the colors and decorations for the website's links. * * The text-decoration can be set to none, underline, line-through or overline. */ 
+/***** Main/Host Page CSS *****/
+.body
+{
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: left;
+}
 
-a:link { color: rgb(120, 120, 120); text-decoration: none; } 
+#centeringDiv
+{
+    position: relative;
+}
 
-a:active { color: rgb(120, 120, 120); text-decoration: none; } 
+.page
+{
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: rgb(256, 256, 256);
+}
 
-a:visited { color: rgb(120, 120, 120); text-decoration: none; } 
+hr
+{
+    background-color: rgb(150, 150, 150);
+    color: rgb(150, 150, 150);
+}
 
-a:hover { color: rgb(114,195,103); text-decoration: none; }
+#userTag
+{
+    background-color: rgb(214,224,255);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(112,148,255);
+    text-align: center;
+}
 
-/* This entry affects the navigational text positioned under your logo. The main * nav links are the top row and the second nav links are the bottom row. * * The font-size is how big the text is displayed on the screen. For the web, it * not recommended to go below 12px or 14px and for the site, we'd recommend a * setting no larger than 20px. * * The font-weight is how bold the text is. It can be set from 100 (the lightest) * to 900 (the thickest). */ 
+.userTagLink
+{
+    font-size: 12px; 
+    font-weight: 600; 
+    font-style:  normal; 
+    margin-top: 0px;
+    color: rgb(112,148,255);
+}
 
-.mainNavLink { font-size: 16pt; font-weight: 600; font-style: normal; }
+    /** Link CSS **/
+.links 
+{ 
+    text-decoration: none;
+}
 
-.secondNavLink { font-size: 16pt; font-weight: 600; font-style: normal; }
+a:link  
+{
+    margin: 0px;
+    padding: 0px;
+    color:  rgb(140, 140, 140);
+    text-decoration: none;
+}
+a:active
+{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+}
+a:visited
+{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(140, 140, 140);
+    text-decoration: none;
+}
+a:hover
+{
+    margin: 0px;
+    padding: 0px;
+    color:  rgb(91, 186, 91);
+    text-decoration: none;
+}
 
-/* These entries affect the symbols located between the navigational text. * * We'd recommend that the font-size be set no larger than 20px. */ 
+.mainNavLink
+{
+    font-size: 18pt;
+    font-weight: 600;
+    font-style: normal;
+    clear: none;
+    display: inline;
+}
 
-.mainDelimiter { font-size: 14pt; font-weight: 600; font-style: normal; }
+.secondNavLink
+{
+    font-size: 18pt;
+    font-weight: 600;
+    font-style: normal;
+    clear: none;
+    display:inline;
+}
+    /** Link CSS **/
+    
+.mainDelimiter
+{
+    font-size: 18pt;
+    font-weight: 600;
+    font-style: normal;
+    clear: none;
+    display:inline;
+    margin: 0px 10px 0px 10px;
+}
 
-.secondDelimiter { font-size: 14pt; font-weight: 600; font-style: normal; }
+.secondDelimiter
+{    
+    font-size: 18pt;
+    font-weight: 600;
+    font-style: normal;
+    clear: none;
+    display:inline;
+    margin: 0px 10px 0px 10px;
+}
 
-/* This entry affects the text positioned next to your logo. The text is * enable/disabled in the Aloha Enterprise's MemberLink Configuration menu option. * * We'd recommend that the font-size be set no larger than 40px. */ 
+.title
+{
+    font-size: 24pt;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
 
-#titleText { font-size: 30px; font-weight: 800; color: rgb(0,0,0); }
-/* This entry affects the instructional text located at the top of each page. The text * is enable/disabled in the Aloha Enterprise's MemberLink Configuration menu option. * * The text-align setting can be left, right or center; */ 
+.instructions 
+{
+    font-size: 13pt;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 16pt;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
 
-#instructionalText { font-size: 22px; font-weight: 500; text-align: center; color: rgb(0,0,0); }
+.homelink 
+{
+    font-size: 18pt;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 100, 150);
+    text-align: center;
+    text-decoration: none;
+}
+
+.disclaimerText
+{
+    font-size: 12pt;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.asterisk 
+{
+    font-size:11pt;
+    font-weight:normal;
+    font-style:normal;
+    color:rgb(220, 0, 0);
+    text-align:left;
+}
+/***** Main/Host Page CSS *****/
+
+
+/***** Login Page CSS *****/
+.login {
+    font-size:11pt;
+    font-weight:bold;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+.errorMessage
+{
+    color: red;
+    text-align: center;
+}
+/***** Login Page CSS *****/
+
+
+/***** Standings Page *****/
+h1.standingsHeadline
+{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(150, 150, 150);
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+h2.standingsHeadline
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(220, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+
+h3.standingsHeadline
+{
+    font-size: 16px;
+    font-style: oblique;
+    margin: 0px 0px 5px 20px;
+    padding: 0px;
+}
+
+.standingsText
+{
+    margin: 0px;
+}
+/***** Standings Page *****/
+
+
+/***** Profile/Bonus Plan Pages CSS *****/
+.pageHeadlines
+{
+    margin: auto;
+    text-align: center;
+}
+
+.fldLabel 
+{
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:normal;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:right;
+    width:50%;
+}
+
+.fldData 
+{
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:normal;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:left;
+    background-color:rgb(255, 255, 255);
+    width:230px;
+}
+
+.BPName 
+{ 
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size:11pt;
+    font-weight:bold;
+    font-style:normal;
+    color:rgb(0, 0, 0);
+    text-align:right;
+}
+
+.BPBalance {
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-size:11pt;
+	font-weight:normal;
+	font-style:normal;
+	color:rgb(0, 0, 0);
+	text-align:left;
+}
+
+.grpbox {
+	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	font-size:11pt;
+	font-weight:bold;
+	font-style:normal;
+	color:rgb(0, 0, 0);
+	text-align:left;
+}
+
+.Txn_both {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:  10pt;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(255, 255, 255);
+	text-align: left;
+}
+
+.Txn_one {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:  18pt;
+	font-weight: bold;
+	font-style: normal;
+	color: rgb(255, 255, 255);
+	text-align: left;
+}
+
+.eCardBalance_both {
+	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	color: rgb(0, 0, 0); 
+	text-align: center;
+}
+
+.eCardBalance_one {
+	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	font-size: 12pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	color: rgb(0, 0, 0);
+	text-align: center;
+}
+
+.TxnValues_both {
+	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	font-size: 10pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	color: rgb(0, 0, 0); 
+	text-align: left; 
+}
+
+.TxnValues_one {
+	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	font-size: 14pt; 
+	font-weight: bold; 
+	font-style: normal; 
+	color: rgb(0, 0, 0); 
+	text-align: left;
+}
+
+.EditProfile { 
+        font-family: Tahoma,Arial,Helvetica,sans-serif; 
+        font-size:10pt; 
+        font-weight:normal; 
+        font-style:normal; 
+        color:rgb(0, 0, 0); 
+        text-align:center 
+}
